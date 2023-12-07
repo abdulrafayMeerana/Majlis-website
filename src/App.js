@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import MajlesThirdPhotoDraft from "./pages/MajlesThirdPhotoDraft";
+import Homepage from "./pages/Homepage";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<MajlesThirdPhotoDraft />} />
+      <Route path="/" element={<Homepage />} />
     </Routes>
   );
 }
