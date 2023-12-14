@@ -1,55 +1,57 @@
 const SectionFive = () => {
   return (
-    <section className="self-stretch bg-aliceblue flex flex-col items-center justify-start py-14 px-[124px] box-border gap-[40px] min-h-[558.5599975585938px] text-center text-5xl text-slategray-200 font-cairo">
-      <h1 className="m-0 relative text-inherit leading-[40px] font-semibold font-inherit inline-block w-[413px]">
-        المركز الاعلامي المجلس الوطني الاتحادي
-      </h1>
-      <div className="self-stretch overflow-hidden flex flex-col items-center justify-start gap-[32px] min-h-[366.55999755859375px] text-base text-darkgray">
-        <div className="w-[308px] flex flex-row items-end justify-start gap-[48px]">
-          <div className="relative w-[340px] h-10">
-            <div className="absolute top-[0px] left-[0px] leading-[40px]">
-              معرض الصور
-            </div>
+    <>
+
+
+      {/* ,m  */}
+      <div className="bg-aliceblue box-border w-full pb-5">
+        <div className="text-center">
+          <p className="text-inherit font-semibold font-inherit inline-block text-[20px] text-slategray-200 font-cairo">
+            المركز الاعلامي المجلس الوطني الاتحادي
+          </p>
+        </div>
+        <div className="flex justify-center  text-inherit font-semibold font-inherit inline-block text-5xl  font-cairo">
+          <div className="flex">
+            <p className="text-slategray-200">معرض الصور</p>
             <img
-              className="absolute top-[8px] left-[90px] w-6 h-6 overflow-hidden"
+              className="mt-4 w-6 h-6 overflow-hidden"
               alt=""
               src="/pepiconspencilphoto.svg"
             />
           </div>
-          <div className="relative w-36 h-10 text-burlywood-200">
-            <div className="absolute top-[39px] left-[-1px] box-border w-[146px] h-0.5 border-t-[2px] border-solid border-burlywood-200" />
-            <div className="absolute top-[0px] left-[8px] w-32 h-10">
-              <div className="absolute top-[0px] left-[0px] leading-[40px] font-semibold">
-                معرض الفيديو
-              </div>
-              <img
-                className="absolute top-[8px] left-[104px] w-6 h-6 overflow-hidden"
-                alt=""
-                src="/carbonvideoadd.svg"
-              />
-            </div>
+          <div className="flex pl-2">
+            <p className="text-[#B09357]">معرض الفيديو</p>
+            <img
+              className="mt-4 w-6 h-6 overflow-hidden"
+              alt=""
+              src="/carbonvideoadd.svg"
+            />
           </div>
-          <div className="relative box-border w-[301px] h-px border-t-[1px] border-solid border-gainsboro"/>
         </div>
-        <section className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[10px] min-h-[294.55999755859375px]">
-          <img
-            className="relative w-[441.3px] h-[293.7px]"
-            alt=""
-            src="/group-1171277523.svg"
-          />
-          <img
-            className="relative w-[247px] h-[294.6px]"
-            alt=""
-            src="/group-1171277508.svg"
-          />
-          <img
-            className="relative w-[441.5px] h-[293.7px]"
-            alt=""
-            src="/group-1171277522.svg"
-          />
-        </section>
+
+        <div className="flex justify-center">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 xl:px-[150px] lg:px-2 md:pl-6 lg:pl-0 pl-0">
+            <img
+              className="relative xl:w-[441.3px] xl:h-[293.7px] lg:w-[320px] md:w-[450px] w-[300px] lg:h-[280px] xl:ml-0 lg:ml-2 md:ml-0"
+              alt=""
+              src="/group-1171277523.svg"
+            />
+            <img
+              className="relative xl:w-[441.3px] xl:h-[294.6px] hidden  md:block ml-0 lg:-ml-5 md:ml-[100px] lg:w-[380px] lg:h-[280px]"
+              alt=""
+              src="/group-1171277508.svg"
+            />
+
+            <img
+              className="relative mt-3 md:mt-0 xl:w-[441.5px] xl:h-[293.7px] lg:w-[320px] md:w-[450px] w-[300px] lg:h-[280px]"
+              alt=""
+              src="/group-1171277522.svg"
+            />
+          </div>
+        </div>
       </div>
-    </section>
+
+    </>
   );
 };
 

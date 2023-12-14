@@ -74,15 +74,15 @@ const SectionFour = () => {
         </div> */}
       </section>
       
-      <div className="font-cairo bg-red00 text-white grid xl:grid-cols-6 md:grid-cols-3 lg:grid-cols-4 sm:grid-cos-1 ">
+      <div className="font-cairo bg-red00 text-white grid xl:grid-cols-6 md:grid-cols-3 lg:grid-cols-4 grid-cols-2 ">
         {/* 1 */}
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
+            className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
             alt=""
             src="/image-92@2x.png"
           />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+          <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
               <p className="m-0">نظام لجان</p>
               <p className="m-0"> المجلس الوطني</p>
@@ -93,11 +93,11 @@ const SectionFour = () => {
 
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
-            alt=""
-            src="/image-92@2x.png"
-          />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+             className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
+             alt=""
+             src="/image-92@2x.png"
+           />
+           <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
               <p className="m-0">نظام عمل</p>
               <p className="m-0">رؤساء اللجان</p>
@@ -108,11 +108,11 @@ const SectionFour = () => {
 
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
-            alt=""
-            src="/image-92@2x.png"
-          />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+             className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
+             alt=""
+             src="/image-92@2x.png"
+           />
+           <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
               <p className="m-0">نظام عمل</p>
               <p className="m-0"> هيئة المكتب</p>
@@ -122,11 +122,11 @@ const SectionFour = () => {
         {/* 4 */}
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
+            className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
             alt=""
             src="/image-92@2x.png"
           />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+          <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
               <p className="m-0">النظام الداخلي</p>
               <p className="m-0">للشعبة البرلمانية</p>
@@ -137,11 +137,11 @@ const SectionFour = () => {
         {/* 5 */}
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
+            className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
             alt=""
             src="/image-92@2x.png"
           />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+          <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
               <p className="m-0">اللائحة الداخلية</p>
             </div>
@@ -151,11 +151,11 @@ const SectionFour = () => {
 
         <div className="relative">
           <img
-            className="relative rounded-lg border-2 w-[250px] h-[250px] opacity-100"
-            alt=""
-            src="/image-92@2x.png"
-          />
-          <div className="absolute top-20 left-[52px] grid h-[80px] w-[140px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
+             className="relative rounded-lg border-2 md:w-[250px] md:h-[250px] h-[160px] w-[160px] opacity-100"
+             alt=""
+             src="/image-92@2x.png"
+           />
+           <div className="absolute md:top-20 md:left-[52px] top-[50px] left-[25px] grid md:h-[80px] md:w-[140px] h-[60px] w-[110px] rounded-[8px] bg-burlywood-200 leading-[28px] font-semibold ">
             <div className="justify-self-center  place-self-center text-center">
             الدستور
           </div>
