@@ -77,7 +77,7 @@ const ServicesSection = () => {
         </div>
       </div>
       <img
-        className="relative w-4 h-[265.3px]"
+        className="relative w-4 h-[265.3px] sm:hidden md:hidden"
         alt=""
         src="/group-1171277507.svg"
       />

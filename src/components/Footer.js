@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="self-stretch bg-gray flex flex-col items-center justify-start w-full relative min-h-[357px] text-left text-xs text-tan font-cairo">
+    <div className="self-stretch bg-[#37474F] flex flex-col items-center justify-start w-full relative min-h-[357px] text-left text-xs text-tan font-cairo">
       <div className="my-0 mx-[!important] absolute top-[42px] left-[1px] w-full flex flex-row flex-wrap items-center justify-start py-0 px-[328px] box-border gap-[135px] z-[0]">
-        <footer className="my-0 mx-[!important] absolute top-[267px] left-[0px] bg-darkslategray-300 flex flex-row items-start justify-center py-[15px] px-auto w-full box-border min-h-[48px] z-[0] text-center text-2xs text-gray-51 font-cairo">
+        <footer className="my-0 mx-[!important] absolute top-[267px] left-[0px] bg-[#152731] flex flex-row items-start justify-center py-[15px] px-auto w-full box-border min-h-[48px] z-[0] text-center text-2xs text-gray-51 font-cairo">
           <div className="relative leading-[160%] inline-block w-full shrink-0">
             لأفضل تصفح للموقع يتوجب أن تكون دقة الشاشة 1366x768 يدعم مايكروسوفت
             انترنت اكسبلورر 10.0+، فاير فوكس 10.0+، سفاري 3+، جوجل كروم 12.0+ ©
@@ -42,7 +42,7 @@ const Footer = () => {
               <p className="m-0">الوظائف</p>
             </div>
           </div>
-          <div className="absolute top-[0px] left-[65px] font-semibold">
+          <div className="absolute top-[0px] left-[156px] font-semibold">
             للاستعلام
           </div>
           <div className="absolute top-[0px] left-[250px] font-semibold">
