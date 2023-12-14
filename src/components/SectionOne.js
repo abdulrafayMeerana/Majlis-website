@@ -35,7 +35,7 @@ const SectionOne = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-[255px] h-[316px] shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
+        <div className="relative w-[255px] h-[316px] sm:hidden md:hidden shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
           <div className="absolute top-[0px] left-[calc(50%_-_127.5px)] rounded-[5.97px] shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] w-[255px] h-[314px]" />
           <div className="absolute top-[1px] left-[0px] rounded-t-lg rounded-b-none w-[255px] h-[155px]" />
           <div className="absolute top-[171px] left-[16px] w-[214.9px] h-[119px]">
@@ -65,7 +65,7 @@ const SectionOne = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-[255px] h-[316px] shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
+        <div className="relative w-[255px] h-[316px] sm:hidden md:hidden shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
           <div className="absolute top-[0px] left-[calc(50%_-_127.5px)] rounded-[5.97px] shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] w-[255px] h-[314px]" />
           <img
             className="absolute top-[1px] left-[0px] rounded-t-lg rounded-b-none w-[255px] h-[155px] object-cover"
@@ -97,7 +97,7 @@ const SectionOne = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-[255px] h-[318px] shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
+        <div className="relative w-[255px] h-[318px] sm:hidden md:hidden shadow-[0px_5px_5px_rgba(0,_0,_0,_0.15)] hover:bg-oldlace overflow-hidden shrink-0">
           <div className="absolute top-[0px] left-[calc(50%_-_127.5px)] rounded-[5.97px] shadow-[0px_0px_0px_rgba(130,_130,_130,_0.15),_0px_5px_20px_rgba(0,_0,_0,_0.2)] w-[255px] h-[314px]" />
           <img
             className="absolute top-[1px] left-[0px] rounded-t-lg rounded-b-none w-[255px] h-[155px] object-cover"

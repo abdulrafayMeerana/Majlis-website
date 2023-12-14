@@ -4,7 +4,7 @@ const Navbar = () => {
       <div className="relative w-[1151px] h-[133px]">
         <div className="absolute top-[53px] left-[0px] flex flex-col items-start justify-start gap-[10px]">
           <img
-            className="relative w-[1151px] h-20 z-[0]"
+            className="relative w-[1151px] h-20 z-[0] md:hidden sm:hidden"
             alt=""
             src="/vector-1.svg"
           />
