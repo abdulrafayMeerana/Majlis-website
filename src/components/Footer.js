@@ -1,55 +1,55 @@
 const Footer = () => {
   return (
-    <div className="self-stretch bg-[#37474F] flex flex-col items-center justify-start w-full relative min-h-[357px] text-left text-xs text-tan font-cairo">
-      <div className="my-0 mx-[!important] absolute top-[42px] left-[1px] w-full flex flex-row flex-wrap items-center justify-start py-0 px-[328px] box-border gap-[135px] z-[0]">
-        <footer className="my-0 mx-[!important] absolute top-[267px] left-[0px] bg-[#152731] flex flex-row items-start justify-center py-[15px] px-auto w-full box-border min-h-[48px] z-[0] text-center text-2xs text-gray-51 font-cairo">
-          <div className="relative leading-[160%] inline-block w-full shrink-0">
-            لأفضل تصفح للموقع يتوجب أن تكون دقة الشاشة 1366x768 يدعم مايكروسوفت
-            انترنت اكسبلورر 10.0+، فاير فوكس 10.0+، سفاري 3+، جوجل كروم 12.0+ ©
-            2023 المجلس الوطني الاتحادي. جميع الحقوق محفوظة.
-          </div>
-        </footer>
-        <div className="relative w-[339px] h-[219px] z-[1]">
-          <div className="absolute top-[34px] left-[0px] w-[325px] h-[185px] text-right text-gray-5">
-            <div className="absolute top-[0px] left-[211px] inline-block w-[114px] h-[185px] opacity-[0.8]">
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                أعضاء المجلس
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                أجندة المجلس
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                لجان المجلس
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                رئيس المجلس
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                استراتيجية المجلس
-              </p>
-              <p className="m-0">عن المجلس</p>
-            </div>
-            <div className="absolute top-[0px] left-[0px] opacity-[0.8]">
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                الاسئلة الشائعة
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                الشروط والاحكام
-              </p>
-              <p className="[margin-block-start:0] [margin-block-end:10px]">
-                سياسة الخصوصية ميثاق خدمة المتعاملين
-              </p>
-              <p className="m-0">الوظائف</p>
-            </div>
-          </div>
-          <div className="absolute top-[0px] left-[156px] font-semibold">
-            للاستعلام
-          </div>
-          <div className="absolute top-[0px] left-[250px] font-semibold">
-            خريطة المجلس
-          </div>
+    <>
+      <div className="bg-[#37474F] w-full h-auto p-10 font-cairo text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-5 xl:px-[328px] mr-16">
+        <div className="block text-right">
+          <ul className="list-none justify-between space-y-2 cursor-pointer">
+            <li className="font-semibold text-[#C1AA7B]">
+              للاستعلام
+            </li>
+            <li className="text-[#A1AAB4]">
+              الاسئلة الشائعة
+            </li>
+            <li className="text-[#A1AAB4]">
+              الشروط والاحكام
+            </li>
+            <li className="text-[#A1AAB4]">
+              سياسة الخصوصيةميثاق خدمة المتعاملين
+            </li>
+            <li className="text-[#A1AAB4]">
+              الوظائف
+            </li>
+          </ul>
         </div>
-        <div className="relative w-[303.6px] h-[233.3px] z-[2] text-right text-gray-6">
+
+        <div className="block text-right md:pr-24 lg:pr-32">
+          <ul className="list-none justify-between space-y-2 cursor-pointer">
+            <li className="font-semibold text-[#C1AA7B]">
+              خريطة المجلس
+            </li>
+            <li className="text-[#A1AAB4]">
+              أعضاء المجلس
+            </li>
+            <li className="text-[#A1AAB4]">
+              أجندة المجلس
+            </li>
+            <li className="text-[#A1AAB4]">
+              لجان المجلس
+            </li>
+            <li className="text-[#A1AAB4]">
+              رئيس المجلس
+            </li>
+            <li className="text-[#A1AAB4]">
+              استراتيجية المجلس
+            </li>
+            <li className="text-[#A1AAB4]"
+            >عن المجلس
+            </li>
+          </ul>
+        </div>
+
+        <div className="relative right-6 min-[375px]:!right-[-10px] min-[425px]:!right-[-60px] md:!right-16 lg:!right-0 w-[303.6px] h-[233.3px] z-[2] text-right text-gray-6">
           <img
             className="absolute top-[193.9px] left-[66.4px] w-[250.1px] h-[58.3px]"
             alt=""
@@ -76,13 +76,21 @@ const Footer = () => {
             src="/group.svg"
           />
           <img
-            className="absolute h-[6.04%] w-[21.28%] top-[90.87%] right-[5.73%] bottom-[3.09%] left-[72.99%] max-w-full overflow-hidden max-h-full"
+            className="absolute h-[6.04%] w-[21.28%] top-[90.87%] right-[5.73%] left-[72.99%] max-w-full overflow-hidden max-h-full"
             alt=""
             src="/group1.svg"
           />
         </div>
-      </div>
+        </div>
     </div>
+      <footer className=" bg-[#152731] flex flex-row items-start justify-center -mt-16 py-[15px] px-auto w-full box-border h-auto text-center text-2xs text-gray-51 font-cairo">
+        <div className=" leading-[160%] inline-block w-full">
+          لأفضل تصفح للموقع يتوجب أن تكون دقة الشاشة 1366x768 يدعم مايكروسوفت
+          انترنت اكسبلورر 10.0+، فاير فوكس 10.0+، سفاري 3+، جوجل كروم 12.0+ ©
+          2023 المجلس الوطني الاتحادي. جميع الحقوق محفوظة.
+        </div>
+      </footer>
+    </>
   );
 };
 
