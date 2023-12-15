@@ -37,13 +37,13 @@ const SectionFive = () => {
               src="/group-1171277523.svg"
             />
             <img
-              className="relative xl:w-[441.3px] xl:h-[294.6px] hidden  md:block ml-0 lg:-ml-5 md:ml-[100px] lg:w-[380px] lg:h-[280px]"
+              className="relative xl:w-[441.3px] xl:h-[294.6px] hidden  md:block ml-0 lg:-ml-5 xl:ml-0 md:ml-[100px] lg:w-[380px] lg:h-[280px]"
               alt=""
               src="/group-1171277508.svg"
             />
 
             <img
-              className="relative mt-3 md:mt-0 xl:w-[441.5px] xl:h-[293.7px] lg:w-[320px] md:w-[450px] w-[300px] lg:h-[280px]"
+              className="relative mt-3 lg:mt-0 xl:w-[441.5px] xl:h-[293.7px] lg:w-[320px] md:w-[450px] w-[300px] lg:h-[280px]"
               alt=""
               src="/group-1171277522.svg"
             />
