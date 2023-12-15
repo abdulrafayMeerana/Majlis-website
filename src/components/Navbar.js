@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
-    <header className="self-stretch flex flex-row items-end justify-start py-0 pr-[42px] pl-0 gap-[59px] text-left text-smi text-white font-cairo">
-      <div className="relative w-[1151px] h-[133px]">
+    <header className="self-stretch flex flex-row items-end justify-between lg:justify-start py-0 pr-[42px] pl-0 gap-[59px] text-left text-smi text-white font-cairo">
+      <div className="relative w-[1151px] h-[133px] hidden lg:block">
         <div className="absolute top-[53px] left-[0px] flex flex-col items-start justify-start gap-[10px]">
           <img
-            className="relative w-[1151px] h-20 z-[0] md:hidden sm:hidden"
+            className="relative w-[1151px] h-20 z-[0]"
             alt=""
             src="/vector-1.svg"
           />
@@ -88,10 +88,19 @@ const Navbar = () => {
         </div>
       </div>
       <img
-        className="relative w-[182.2px] h-[120px] object-cover"
+        className="relative w-[182.2px] h-[120px] object-cover hidden lg:block"
         alt=""
         src="/image-71@2x.png"
       />
+      <div className="w-[68px] h-[48px]">
+        <div className="relative lg:hidden pl-[42px]">
+          <img className="w-[24px] h-[24px]" src="/Vector.png"/>
+        </div>
+      </div>
+      
+      <div className="relative lg:hidden">
+        <img className="w-[68px] h-[48px]" src="/logo-sm.png"/>
+      </div>
     </header>
   );
 };

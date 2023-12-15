@@ -1,12 +1,12 @@
 const ServicesSection = () => {
   return (
-    <div className="self-stretch overflow-hidden flex flex-row items-start justify-start py-0 sm:px-0 md:px-0 px-[54px] box-border gap-[113px] min-h-[265.3299865722656px] text-left text-5xl text-burlywood-200 font-cairo">
+    <div className="self-stretch overflow-hidden flex flex-row items-start justify-start py-0 px-[54px] box-border gap-[113px] min-h-[265.3299865722656px] text-left text-5xl text-burlywood-200 font-cairo">
       <div className="flex-1 flex flex-col items-center justify-start gap-[32px] min-h-[235px]">
         <h1 className="m-0 relative text-inherit leading-[58.85px] font-semibold font-inherit">
           الخدمات الالكترونية
         </h1>
         <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[90px] text-center text-lg">
-          <div className="relative sm:w-[340px] md:w-[340px] w-[300px] h-36">
+          <div className="relative w-[300px] h-36">
             <div className="absolute top-[0px] left-[195px] rounded bg-white shadow-[0px_5px_25px_rgba(0,_0,_0,_0.1)] w-36 h-36">
               <h3 className="m-0 absolute top-[96px] left-[29px] text-inherit leading-[24px] font-semibold font-inherit">
                 طلب شراكة
@@ -29,7 +29,7 @@ const ServicesSection = () => {
               />
             </div>
           </div>
-          <div className="relative sm:w-[340px] md:w-[340px] w-[300px] h-36">
+          <div className="relative w-[300px] h-36">
             <div className="absolute top-[0px] left-[195px] rounded bg-white shadow-[0px_5px_25px_rgba(0,_0,_0,_0.1)] w-36 h-36">
               <h3 className="m-0 absolute top-[96px] left-[19px] text-inherit leading-[24px] font-semibold font-inherit">
                 بواية الموردين
@@ -51,7 +51,7 @@ const ServicesSection = () => {
               />
             </div>
           </div>
-          <div className="relative sm:w-[340px] md:w-[340px] w-[300px] h-36">
+          <div className="relative w-[300px] h-36">
             <div className="absolute top-[0px] left-[195px] rounded bg-white shadow-[0px_5px_25px_rgba(0,_0,_0,_0.1)] w-36 h-36">
               <img
                 className="absolute top-[24px] left-[48px] w-12 h-12 object-cover"
@@ -77,7 +77,7 @@ const ServicesSection = () => {
         </div>
       </div>
       <img
-        className="relative w-4 h-[265.3px] sm:hidden md:hidden"
+        className="relative w-4 h-[265.3px] hidden lg:block"
         alt=""
         src="/group-1171277507.svg"
       />

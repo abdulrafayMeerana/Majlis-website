@@ -5,7 +5,7 @@ const SectionTwo = () => {
         استراتيجية المجلس الوطني الاتحادي
       </h1>
       <section className="self-stretch bg-aliceblue overflow-hidden flex flex-row flex-wrap items-center justify-center py-14 px-[125px] box-border gap-[10px] min-h-[624px] text-right text-xl text-burlywood-200 font-cairo">
-        <div className="relative w-[609px] h-[356px] overflow-hidden shrink-0 sm:hidden md:hidden">
+        <div className="relative w-[609px] h-[356px] overflow-hidden shrink-0 hidden lg:block">
           <div className="absolute top-[29px] left-[29.1px] rounded-[8.37px] bg-burlywood-200 w-[580.3px] h-[327px]" />
           <img
             className="absolute top-[0px] left-[0px] w-[577px] h-[323.7px] object-cover "
@@ -93,7 +93,7 @@ const SectionTwo = () => {
             <span>المصداقية</span><br></br>
           </ul>
         </div>
-        <div className="relative w-[609px] h-[416px] overflow-hidden shrink-0  sm:hidden md:hidden">
+        <div className="relative w-[609px] h-[416px] overflow-hidden shrink-0 hidden lg:block">
           <div className="absolute top-[38.3px] left-[29.1px] rounded-[8.37px] bg-burlywood-200 w-[580.3px] h-[377.7px]" />
           <img
             className="absolute top-[0px] left-[0px] rounded-lg w-[577px] h-[384.3px] object-cover"
