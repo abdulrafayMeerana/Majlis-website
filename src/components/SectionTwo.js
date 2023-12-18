@@ -4,7 +4,7 @@ const SectionTwo = () => {
       <h1 className="m-0 relative text-inherit leading-[40px] pb-10 font-semibold font-inherit">
         استراتيجية المجلس الوطني الاتحادي
       </h1>
-      <section className="self-stretch bg-aliceblue overflow-hidden flex flex-row flex-wrap items-center justify-center py-14 px-[125px] box-border gap-[10px] min-h-[624px] text-right text-xl text-burlywood-200 font-cairo">
+      <section className="self-stretch bg-aliceblue overflow-hidden flex flex-row flex-wrap items-center justify-center py-14 px-[25px] lg:px-[125px] box-border gap-[50px] min-h-[624px] text-right text-xl text-burlywood-200 font-cairo">
         <div className="relative w-[609px] h-[356px] overflow-hidden shrink-0 hidden lg:block">
           <div className="absolute top-[29px] left-[29.1px] rounded-[8.37px] bg-burlywood-200 w-[580.3px] h-[327px]" />
           <img
@@ -13,30 +13,30 @@ const SectionTwo = () => {
             src="/image-74@2x.png"
           />
         </div>
-        <div className="relative w-[515.4px] h-[512px] overflow-hidden shrink-0">
-          <h2 className="m-0 absolute top-[0px] left-[117px] text-inherit leading-[40px] font-bold font-inherit inline-block w-[398px]">
+        <div className="flex flex-1 flex-col items-end lg:items-end">
+          <h2 className="leading-[40px] font-inherit text-inherit font-bold inline-block">
             الرسالة
           </h2>
-          <div className="absolute top-[56px] left-[0px] leading-[155%] text-slategray-100 inline-block w-[515px] h-[437px] text-base">
-            <p className="[margin-block-start:0] [margin-block-end:10px]">
+          <div className="leading-[155%] text-slategray-100 text-base">
+            <p className="">
               تمثيل شعب الاتحاد من خلال أداء متميز لأدواره التشريعية والرقابية
               والبرلمانية كسلطة داعمة ومساندة ومرشدة للسلطة التنفيذية وتعزيز
               المشاركة السياسية للمواطنين.
             </p>
-            <p className="[margin-block-start:0] [margin-block-end:10px] text-lg font-medium">
+            <p className="text-lg font-medium">
               القيم
             </p>
-            <ul className="m-0 pl-[21px]">
-              <span>الوحدة الوطنية</span><br></br>
-              <span>المشاركة</span><br></br>
-              <span>الشفافية</span><br></br>
-              <span>الاستقلالية</span><br></br>
-              <span>المصداقية</span><br></br>
+            <ul className="">
+              <span>الوحدة الوطنية</span><br/>
+              <span>المشاركة</span><br/>
+              <span>الشفافية</span><br/>
+              <span>الاستقلالية</span><br/>
+              <span>المصداقية</span><br/>
             </ul>
-            <p className="[margin-block-start:0] [margin-block-end:10px] text-lg font-medium">
+            <p className="text-lg font-medium">
               الأهداف الاستراتيجية
             </p>
-            <ul className="m-0 pl-[21px]">
+            <ul className="">
                 <span>ترسيخ الوحدة الوطنية والمواطنة الصالحة</span>
                 <span>
                   تعزيز المنظومة التشريعية بما يتوافق مع أفضل المعايير العالمية
@@ -55,43 +55,67 @@ const SectionTwo = () => {
                   متميز​​
                 </span>
             </ul>
+          <div/>
           </div>
         </div>
       </section>
-      <div className="self-stretch bg-burlywood-300 flex flex-row flex-wrap items-start justify-center py-[72px] px-[125px] box-border gap-[50px] min-h-[560px] text-right text-base">
-        <div className="relative leading-[155%] inline-block w-[515px] h-[365px] shrink-0">
-          <p className="[margin-block-start:0] [margin-block-end:10px] text-xl">
+      <section className="self-stretch bg-burlywood-300 overflow-hidden flex flex-row flex-wrap items-center justify-center py-14 px-[25px] lg:px-[125px] gap-[50px] box-border min-h-[624px] text-right text-base text-burlywood-200 font-cairo">
+        {/* <div className="flex flex-1 flex-col relative leading-[155%] items-end lg:items-end"> */}
+        {/* <div className="leading-[155%] flex flex-col shrink-0 items-end lg:items-end">
+          <p className="text-xl">
             <b>الرؤية</b>
           </p>
-          <p className="[margin-block-start:0] [margin-block-end:10px] text-slategray-100">
-            <span>
-              <span>مجلس وطني فاعل يشارك في تحقيق تطلعات شعب الاتحاد</span>
-            </span>
+          <p className="text-slategray-100">
+            <span>مجلس وطني فاعل يشارك في تحقيق تطلعات شعب الاتحاد</span>
           </p>
-          <p className="[margin-block-start:0] [margin-block-end:10px] text-lg">
-            <span>
-              <span className="font-medium">الرسالة</span>
-            </span>
+          <p className="text-lg">
+            <span className="font-medium">الرسالة</span>
           </p>
-          <p className="[margin-block-start:0] [margin-block-end:10px]">
-            <span>
-              <span>
-                تمثيل شعب الاتحاد من خلال أداء متميز لأدواره التشريعية والرقابية
-                والبرلمانية كسلطة داعمة ومساندة ومرشدة للسلطة التنفيذية وتعزيز
-                المشاركة السياسية للمواطنين.
-              </span>
-            </span>
+          <p className="">
+            <span>تمثيل شعب الاتحاد من خلال أداء متميز لأدواره التشريعية والرقابية</span><br/>
+           <span> والبرلمانية كسلطة داعمة ومساندة ومرشدة للسلطة التنفيذية وتعزيز</span><br/>
+            <span>المشاركة السياسية للمواطنين.</span>
           </p>
-          <p className="[margin-block-start:0] [margin-block-end:10px] text-xl">
+          <p className=" text-xl">
             <b>القيم</b>
           </p>
-          <ul className="m-0 pl-[21px] text-slategray-100">
+          <ul className="text-slategray-100">
             <span>الوحدة الوطنية</span><br></br>
             <span>المشاركة</span><br></br>
             <span>الشفافية</span><br></br>
             <span>الاستقلالية</span><br></br>
             <span>المصداقية</span><br></br>
           </ul>
+        </div> */}
+        <div className="flex flex-1 flex-col items-end lg:items-end">
+          <h2 className="leading-[40px] text-xl font-bold inline-block">
+            <b>الرؤية</b>          
+          </h2>
+          
+          <div className="leading-[155%] text-slategray-100 text-base">
+            <p className="text-slategray-100">
+              <span>مجلس وطني فاعل يشارك في تحقيق تطلعات شعب الاتحاد</span>
+            </p>
+            <p className="text-lg">
+              <span className="font-medium text-burlywood-200">الرسالة</span>
+            </p>
+            <p className="">
+              تمثيل شعب الاتحاد من خلال أداء متميز لأدواره التشريعية والرقابية
+            والبرلمانية كسلطة داعمة ومساندة ومرشدة للسلطة التنفيذية وتعزيز
+              المشاركة السياسية للمواطنين.
+            </p>
+            <p className=" text-xl text-burlywood-200">
+            <b>القيم</b>
+          </p>
+          <ul className="text-slategray-100">
+            <span>الوحدة الوطنية</span><br></br>
+            <span>المشاركة</span><br></br>
+            <span>الشفافية</span><br></br>
+            <span>الاستقلالية</span><br></br>
+            <span>المصداقية</span><br></br>
+          </ul>
+          <div/>
+          </div>
         </div>
         <div className="relative w-[609px] h-[416px] overflow-hidden shrink-0 hidden lg:block">
           <div className="absolute top-[38.3px] left-[29.1px] rounded-[8.37px] bg-burlywood-200 w-[580.3px] h-[377.7px]" />
@@ -101,7 +125,7 @@ const SectionTwo = () => {
             src="/image-73@2x.png"
           />
         </div>
-      </div>
+      </section>
     </section>
   );
 };
