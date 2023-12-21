@@ -5,22 +5,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-5 xl:px-[328px] mr-16">
           <div className="absolute right-6 w-[303.6px] h-[233.3px] z-[2] text-right text-gray-6 md:hidden">
             <img
-              className="absolute top-[63.9px] left-[66.4px] w-[250.1px] h-[58.3px]"
+              className="absolute top-[78.9px] left-[66.4px] w-[250.1px] h-[58.3px]"
               alt=""
               src="/group-1171276038.svg"
             />            
             <img
-              className="relative top-[0px] right-[0px] w-[73.51px] h-[48px] object-cover"
+              className="relative top-[0px] right-[0px] w-[110px] h-[72px] object-cover"
               alt=""
               src="/-1@2x.png"
             />
             <img
-              className="absolute h-[6.22%] w-[23.22%] top-[78.9px] right-[45.59%] bottom-[3.34%] left-[31.19%] max-w-full overflow-hidden max-h-full"
+              className="absolute h-[6.22%] w-[23.22%] top-[93.9px] right-[45.59%] bottom-[3.34%] left-[31.19%] max-w-full overflow-hidden max-h-full"
               alt=""
               src="/group.svg"
             />
             <img
-              className="absolute h-[6.04%] w-[21.28%] top-[78.9px] right-[0.73%] left-[72.99%] max-w-full overflow-hidden max-h-full"
+              className="absolute h-[6.04%] w-[21.28%] top-[93.9px] right-[0.73%] left-[72.99%] max-w-full overflow-hidden max-h-full"
               alt=""
               src="/group1.svg"
             />
