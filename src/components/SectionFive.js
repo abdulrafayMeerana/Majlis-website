@@ -10,19 +10,19 @@ const SectionFive = () => {
             المركز الاعلامي المجلس الوطني الاتحادي
           </p>
         </div>
-        <div className="flex justify-center  text-inherit font-semibold font-inherit inline-block text-5xl  font-cairo">
+        <div className="flex justify-center  text-inherit font-semibold font-inherit text-5xl  font-cairo">
           <div className="flex">
             <p className="text-slategray-200">معرض الصور</p>
             <img
-              className="mt-4 w-6 h-6 overflow-hidden"
+              className="mt-5 pl-1 w-6 h-6 overflow-hidden"
               alt=""
               src="/pepiconspencilphoto.svg"
             />
           </div>
-          <div className="flex pl-2">
+          <div className="flex pl-8">
             <p className="text-[#B09357]">معرض الفيديو</p>
             <img
-              className="mt-4 w-6 h-6 overflow-hidden"
+              className="mt-5 pl-1 w-6 h-6 overflow-hidden"
               alt=""
               src="/carbonvideoadd.svg"
             />

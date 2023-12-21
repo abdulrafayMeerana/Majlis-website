@@ -1,6 +1,6 @@
 const ServicesSection = () => {
   return (
-    <div className="self-stretch overflow-hidden flex flex-row items-start justify-start py-0 box-border gap-[113px] min-h-[265.3299865722656px] text-left text-5xl text-burlywood-200 font-cairo">
+      <div className="self-stretch overflow-hidden flex flex-row items-start justify-start py-[0px] box-border gap-[113px] min-h-[265.3299865722656px] text-left text-5xl text-burlywood-200 font-cairo">
       <div className="flex-1 flex flex-col items-center justify-start gap-[32px] min-h-[235px]">
         <h1 className="m-0 relative text-inherit leading-[58.85px] font-semibold font-inherit">
           الخدمات الالكترونية
@@ -72,7 +72,6 @@ const ServicesSection = () => {
             </div>
         </div>
       </div>
-
 
       <img
         className="relative w-4 right-10 h-[265.3px] hidden lg:block"
